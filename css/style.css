@@ -1,0 +1,335 @@
+@font-face {
+    font-family: 'QuiteChocolatey';
+    src: url('../fonts/Quite\ Chocolatey.ttf');
+}
+@font-face {
+    font-family: 'couture';
+    src: url('../fonts/couture-bld.otf');
+}
+@font-face {
+    font-family: 'myriad_pro';
+    src: url('../fonts/MYRIADPRO-REGULAR.OTF');
+}
+@font-face {
+    font-family: 'PTserif';
+    src: url('../fonts/PT_Serif-Web-Regular.ttf');
+}
+@font-face {
+    font-family: 'montserrat-bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'montserrat-regular';
+    src: url('../fonts/Montserrat-Regular.ttf');
+}
+
+body {
+    margin: 0;
+}
+* {
+    box-sizing: border-box;
+}
+.container {
+    width: 1010px;
+    margin: 0 auto;
+}
+.menu {
+    width: 1200px;
+    margin: 0 auto;
+    background-image: url(/img/Layer\ 13.png);
+    background-repeat: no-repeat;
+}
+.menu_inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 65px;
+    padding-bottom: 130px;
+}
+.name a {
+    font-size: 80px;
+    font-family: "QuiteChocolatey";
+    color: rgb(255, 255, 255);
+    line-height: 0px;
+    font-weight: normal;   
+    text-decoration: none;
+}
+.name a:hover {
+    color: #130e27;
+}
+.item ul{
+    display: flex;
+    list-style: none;
+}
+.item li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Montserrat-regular";
+    color: rgb(255, 255, 255);
+    line-height: 0px;
+    font-weight: 600;
+    padding: 8px 12px;
+}
+.item li a:hover {
+    background-color:#130e27;
+    border-radius: 5px;
+}
+.menu_offers ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    justify-content: left;
+    padding: 0;
+    padding-left: 20px;
+}
+.menu_offer_black {
+
+    font-size: 90px;
+    font-family: "Montserrat-bold";
+    color: rgb(19, 14, 39);
+    font-weight: 400;
+    line-height: 0px;
+    text-align: left;
+    text-transform: uppercase;  
+}
+.menu_offer_white {
+    font-size: 90px;
+    font-family: "Montserrat-bold";
+    color: white;
+    font-weight: 400;
+    line-height: 0px;
+    text-align: left;
+    text-transform: uppercase;
+    padding-top: 80px;
+}
+.menu_text {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    text-align: left;
+    max-width: 460px;
+    padding-left: 20px;
+    padding-top: 60px; 
+    padding-bottom: 158px;
+}
+.our_services {
+    width: 1200px;
+    margin: 0 auto;
+}
+.container_our_services {
+    width: 1010px;
+    margin: 0 auto;
+}
+.our_services_inner {
+    padding-left: 20px;
+}
+.our_services_name {
+    display: flex;
+    font-size: 50px;
+    font-family: "Couture";
+    font-weight: bold;
+    line-height: 50px;
+    text-align: left;
+    padding-top: 45px;
+    padding-bottom: 95px;
+}
+.name_red {
+    color: rgb(198, 35, 20);
+    padding-right: 12px;
+}
+.name_dark {
+    color: #130e27;
+}
+.our_services_table {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+.our_services_item {
+    display: flex;
+    flex-direction: column;
+}
+.our_services_icon {
+    margin: 0 auto;
+}
+.our_services_text {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: rgb(19, 14, 39);
+    line-height: 28px;
+    text-align: center;
+    max-width: 180px; 
+    font-weight: bold;
+    padding-top: 37px;
+    padding-bottom: 65px;
+}
+.our_story {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #130e27;
+}
+
+.container_our_story {
+    width: 1010px;
+    margin: 0 auto;
+}
+div.our_story_inner {
+    padding-left: 20px;
+    padding-top: 27px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.our_story_text {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: white;
+    line-height: 28px;
+    text-align: left;
+    max-width: 650px;
+}
+.our_story_name a{
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 22px;
+    background-color: #c62314;
+    border-radius: 4px;
+    padding: 20px 65px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.our_story_name a:hover{
+    background-color: white;
+    color: rgb(19, 14, 39);
+}
+.pricing {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #efefef;
+}
+.container_prising {
+    width: 1010px;
+    margin: 0 auto;
+}
+.pricing_inner {
+
+}
+.pricing_title {
+    padding-top: 65px;
+    padding-bottom: 60px;
+    font-size: 50px;
+    font-family: "Montserrat";
+    color: rgb(19, 14, 39);
+    font-weight: bold;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;  
+}
+.pricing_table {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 65px;
+}
+.pricing_item {
+    background-color: white;
+    padding: 40px 55px 30px 55px;
+    border-radius: 5px;
+}
+.pricing_name {
+    font-size: 22px;
+    font-family: "PTSerif";
+    color: rgb(19, 14, 39);
+    line-height: 22px;
+    padding-bottom: 25px;
+}
+.pricing_price {
+    font-size: 60px;
+    font-family: "Montserrat";
+    color: rgb(198, 35, 20);
+    font-weight: 700;
+    line-height: 60px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+.pricing_function {
+    font-size: 20px;
+    font-family: "PTSerif";
+    color: rgb(19, 14, 39);
+    line-height: 28px;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.pricing_function_item {
+
+}
+.pricing_sign a{
+    font-size: 22px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    line-height: 28px;
+    background-color: rgb(19, 14, 39);
+    border-radius: 4px;
+    text-transform: uppercase;
+    padding: 15px 60px;
+    text-decoration: none;
+}
+#try a{
+    padding: 15px 85px;
+}
+.pricing_sign a:hover {
+    background-color:rgb(198, 35, 20);
+}
+.logo_bottom {
+    width: 1200px;
+    margin: 0 auto;
+    background-color:rgb(19, 14, 39);
+}
+.logo_bottom_container {
+    width: 1010px;
+    margin: 0 auto;
+}
+.logo_bottom_inner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.design_coon {
+    font-size: 20px;
+    font-family: "PTSerif";
+    font-weight: 500;
+    color: white;
+    line-height: 20px;
+
+}
+.red_design_coon a {
+    font-size: 20px;
+    font-family: "PTSerif";
+    font-weight: 600;
+    color: #ce4033;
+    line-height: 20px;
+    text-decoration: none;
+}
+.red_design_coon a:hover {
+    color: white;
+    pointer-events: none;
+}
+.automotive a{
+    font-size: 60px;
+    font-family: "QuiteChocolatey";
+    color: rgb(198, 35, 20);
+    line-height: 60px;
+    text-decoration: none;
+}
+.automotive a:hover {
+    color:  white;
+}
+
